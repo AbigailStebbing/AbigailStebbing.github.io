@@ -2,6 +2,6 @@
     <li>
         <img class="img" alt="{{project.Caption}}" ng-src="img/images/LQ/{{project.FileName}}">
         <a href="#/Project/{{project.ProjectKey}}"><h3>{{project.ProjectTitle}}</h3></a>
-        <p>{{project.Summary}}</p>
+        <p ng-repeat="paragraph in project.Summary">{{paragraph}}</p>
     </li>
 </flex-slider>

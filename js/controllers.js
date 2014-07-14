@@ -22,7 +22,7 @@ angular.module('futures.controllers', [])
                 var flatProject = data[key].SampleImage;
                 flatProject.ProjectKey = key;
                 flatProject.ProjectTitle = data[key].ProjectTitle;
-                flatProject.Summary = data[key].Summary;
+                flatProject.Summary = data[key].Summary.split('\n');;
                 flatProject.SampleImage = data[key].SampleImage;
                 $scope.Projects.push(flatProject);
             }
