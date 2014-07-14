@@ -4,7 +4,7 @@
 
 angular.module('futures.controllers', [])
     .controller('NavCtrl', ['$scope', '$http', function($scope, $http) {
-        $http.get('img/images/projects.json').success(function(data) {
+        $http.get('img/images/pages.json').success(function(data) {
             $scope.projects = data;
         });
     }])
@@ -16,7 +16,7 @@ angular.module('futures.controllers', [])
 
         $scope.Projects = [];
 
-        $http.get('img/images/projects.json').success(function(data) {
+        $http.get('img/images/pages.json').success(function(data) {
             for(var key in data)
             {
                 var flatProject = data[key].SampleImage;
