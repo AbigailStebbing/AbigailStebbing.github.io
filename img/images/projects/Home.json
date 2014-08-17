@@ -1,8 +1,21 @@
 {
-    "Images": [
+    "Images": 
+    [
         {
-            "FileName": "widgee.JPG",
-            "Caption": "A Big Boat"
+            "FileName": "widgee_1.JPG",
+            "Caption": "A Big Boat 1"
+        },
+        {
+            "FileName": "widgee_2.JPG",
+            "Caption": "A Big Boat 2"
+        },
+        {
+            "FileName": "widgee_3.JPG",
+            "Caption": "A Big Boat 3"
+        },
+        {
+            "FileName": "widgee_4.JPG",
+            "Caption": "A Big Boat 4"
         }
     ],
     "Description": "The description of the project."
